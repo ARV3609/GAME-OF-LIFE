@@ -71,6 +71,7 @@ h4{
     display: inline-block;
     background-color: rgba(221, 196, 255, .5);
     margin-top: 20px;
+    white-space: nowrap;
 }
 .std {
     margin-left: 0px;
@@ -170,6 +171,11 @@ img{
 @media screen and (max-width: 600px) {
     td {
       width: 50%; /* Example width for smaller screens */
+    }
+    .textHint{
+        padding-left:10px;
+        padding-right: 10px;
+      
     }
   }
   
