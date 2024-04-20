@@ -7,6 +7,15 @@ h1{
     margin-right: 0px;
     padding-right: 0px;
 }
+h2{
+    margin-left: 40px;
+    color: rgb(68, 68, 68);
+    font-family : "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 0px;
+    padding-right: 0px;
+}
 h3{
     margin-left: 10px;
     margin: auto;
@@ -15,6 +24,15 @@ h3{
     font-weight: 700;
     font-style: normal;
     position: relative;
+
+}
+
+.tutorial{
+    margin-left: 40px;
+    color: rgb(133, 132, 132);
+    font-family : "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 
 }
 
@@ -40,7 +58,6 @@ h4{
     line-height: 25px;
     margin-left: 50px;
     margin-right: 50px;
-    white-space: 10px;
 }
 
 .textHint{
@@ -136,6 +153,14 @@ img{
     width: 30px;
     position: relative;
     margin: auto;
+}
+
+.tutorial_image{
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .hint_container{
