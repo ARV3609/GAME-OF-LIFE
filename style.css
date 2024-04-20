@@ -1,0 +1,150 @@
+h1{
+    margin-left: 40px;
+    color: rgb(68, 68, 68);
+    font-family : "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+h3{
+    margin-left: 10px;
+    margin: auto;
+    color: rgb(99, 99, 99);
+    font-family : "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative;
+
+}
+
+h4{
+    color: rgb(186, 131, 248);
+    font-family : "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.hint{
+    color: rgb(135, 42, 241);
+    font-family : "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    text-align: right;
+    line-height: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    white-space: 10px;
+}
+
+.textHint{
+    margin: 10px auto;
+    padding:10px;
+    padding-left:100px;
+    padding-right: 100px;
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+    display: inline-block;
+    background-color: rgba(221, 196, 255, .5);
+    margin-top: 20px;
+}
+.std {
+    margin-left: 0px;
+    padding-left: 0px;
+    color: rgb(138, 48, 255);
+}
+
+
+body {
+    background-color: rgb(234, 223, 252);
+}
+#speedlabel {
+    font-family : "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(116, 116, 117);
+}
+.buttonContainer {
+    background-color: white;
+    width: 250px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+button {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 60px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(144, 96, 255);
+    margin: 10px;
+}
+
+.SpeedbarContainer{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#speed{
+    margin: auto;
+    width: 230px;
+    margin-left: 0px;
+    margin-top: 10px;
+    accent-color: rgb(137, 89, 248);
+    
+}
+
+table {
+    margin: 10px;
+    margin: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    border: 1px solid rgb(206, 186, 252);
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+td{
+    width: 10px;
+    height: 10px;
+    min-width: 10px;
+    min-height: 10px;
+    border:0.1px solid  rgb(234, 223, 252);
+    background-color: white;
+    overflow: auto;
+}
+
+.alive{
+    background-color: rgb(137, 89, 248);
+}
+
+img{
+    height: 100%;
+    width: 30px;
+    position: relative;
+    margin: auto;
+}
+
+.hint_container{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    td {
+      width: 50%; /* Example width for smaller screens */
+    }
+  }
+  
