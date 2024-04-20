@@ -60,10 +60,10 @@ h4{
     margin-right: 50px;
 }
 
-.textHint{
+.textHint {
     margin: 10px auto;
-    padding:10px;
-    padding-left:100px;
+    padding: 10px;
+    padding-left: 100px;
     padding-right: 100px;
     background-color: white;
     border: 0px;
@@ -72,7 +72,9 @@ h4{
     background-color: rgba(221, 196, 255, .5);
     margin-top: 20px;
     white-space: nowrap;
+    box-sizing: border-box; /* Include padding in total width */
 }
+
 .std {
     margin-left: 0px;
     padding-left: 0px;
